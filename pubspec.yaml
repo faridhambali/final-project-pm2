@@ -1,0 +1,56 @@
+name: museumlpg
+description: A new Flutter project.
+
+# Prevent accidental publication to pub.dev.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Application version and build number.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.5
+  carousel_slider: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/slide1.jpeg
+    - assets/images/slide2.jpeg
+    - assets/images/agama_hindu.jpeg
+    - assets/images/aksara_lampung.jpeg
+    - assets/images/arca_megalitik.jpeg
+    - assets/images/arca_menhir.jpeg
+    - assets/images/besunat.jpeg
+    - assets/images/gamolan.jpeg
+    - assets/images/islam.jpeg
+    - assets/images/kain_inuh.jpeg
+    - assets/images/keramik_asing.jpeg
+    - assets/images/koleksi_filologika.jpeg
+    - assets/images/kulintang.jpeg
+    - assets/images/masa_islam.jpeg
+    - assets/images/miniatur_begawi.jpeg
+    - assets/images/naskah_buku_kulit.jpeg
+    - assets/images/prasasti_palas.jpeg
+    - assets/images/raden_intan.jpeg
+    - assets/images/senjata_lampung.jpeg
+    - assets/images/senjata_pistol_voc.jpeg
+    - assets/images/serah_sepi_bilah.jpeg
+    - assets/images/serah_sepi.jpeg
+    - assets/images/Siger.png
+    - assets/images/uang_asing.jpeg
+    - assets/images/logo.png
+    - assets/images/slide3.jpeg
+
